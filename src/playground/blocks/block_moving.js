@@ -1633,3 +1633,65 @@ module.exports = {
         };
     },
 };
+Entry.Blocks.move_to_origin = {
+    color: EntryStatic.colorSet.block.default.MOVING,
+    outerLine: EntryStatic.colorSet.block.darken.MOVING,
+    skeleton: 'basic',
+    statements: [],
+    params: [],
+    def: {
+        type: 'move_to_origin',
+    },
+    class: 'moving',
+    isNotFor: [],
+    func(sprite, script) {
+        const originX = sprite.originX !== undefined ? sprite.originX : 0;
+        const originY = sprite.originY !== undefined ? sprite.originY : 0;
+
+        sprite.setX(originX);
+        sprite.setY(originY);
+
+        return script.callReturn();
+    },
+};
+Entry.Blocks.move_to_origin = {
+    color: EntryStatic.colorSet.block.default.MOVING,
+    outerLine: EntryStatic.colorSet.block.darken.MOVING,
+    skeleton: 'basic',
+    statements: [],
+    params: [],
+    def: {
+        type: 'move_to_origin',
+    },
+    class: 'moving',
+    isNotFor: [],
+    func(sprite, script) {
+        const originX = sprite.originX !== undefined ? sprite.originX : 0;
+        const originY = sprite.originY !== undefined ? sprite.originY : 0;
+
+        sprite.setX(originX);
+        sprite.setY(originY);
+
+        return script.callReturn();
+    },
+};
+Entry.Blocks.move_to_origin = {
+    color: EntryStatic.colorSet.block.default.MOVING,
+    outerLine: EntryStatic.colorSet.block.darken.MOVING,
+    skeleton: 'basic',
+    statements: [],
+    params: [],
+    def: {
+        type: 'move_to_origin',
+    },
+    class: 'moving',
+    isNotFor: [],
+    func(sprite, script) {
+        const originX = sprite.originX !== undefined ? sprite.originX : 0;
+        const originY = sprite.originY !== undefined ? sprite.originY : 0;
+        sprite.setX(originX);
+        sprite.setY(originY);
+        return script.callReturn();
+
+    },
+};
